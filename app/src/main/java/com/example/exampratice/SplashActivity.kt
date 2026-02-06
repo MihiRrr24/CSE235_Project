@@ -12,7 +12,6 @@ class SplashActivity : AppCompatActivity() {
     private companion object {
         const val SPLASH_DELAY = 2000L
     }
-    
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_splash)
